@@ -2,13 +2,13 @@
 
 A Java and Spring Boot REST API project focused on Spring Data JPA queries, sorting, filtering, validation, global exception handling, and layered backend architecture.
 
-The project simulates a fruits and vegetables API to practice custom repository methods, CRUD operations, centralized error handling, and clean REST endpoint design.
+The project simulates a fruits and vegetables API with CRUD operations, repository query methods, price-based sorting, name-based searching, validation checks, centralized error handling, and clean REST endpoint design.
 
 ## Overview
 
-This project was developed as a hands-on backend training project with Spring Boot and Spring Data JPA.
+This project was developed to strengthen backend API design skills with Spring Boot, Spring Data JPA, and PostgreSQL.
 
-The main goal was to practice building REST APIs with database-backed entities, repository query methods, service-layer abstraction, validation rules, and global exception handling.
+The main goal was to build a database-backed REST API with repository query methods, service-layer abstraction, validation rules, centralized exception handling, and a maintainable backend structure.
 
 The application includes two main domain models:
 
@@ -33,7 +33,7 @@ Both models support CRUD operations, price-based sorting, name-based searching, 
 * SLF4J Logging
 * Layered backend architecture
 
-## Core Concepts Practiced
+## Core Concepts
 
 * Spring Boot REST API development
 * Spring Data JPA repository methods
@@ -162,7 +162,7 @@ src/
          └── application.properties
 ```
 
-## What I Practiced
+## What This Project Demonstrates
 
 * Building REST APIs with Spring Boot
 * Creating entity models with JPA annotations
@@ -228,9 +228,9 @@ You can test the endpoints using:
 
 ## Notes
 
-This project was built as a backend training project focused on Spring Data JPA, custom query methods, sorting, filtering, validation, global exception handling, and layered Spring Boot architecture.
+This project focuses on Spring Boot REST API design, Spring Data JPA query methods, sorting, filtering, validation, centralized exception handling, and layered backend architecture.
 
-The main focus was not building a production fruits and vegetables platform, but practicing clean REST API design and backend error-handling patterns.
+The main purpose is to demonstrate backend API structure, repository query behavior, validation patterns, and centralized error handling rather than building a production fruits and vegetables platform.
 
 ## Repository
 
